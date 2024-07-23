@@ -9,3 +9,5 @@ numpy
 spacy
 docx2txt
 PyPDF2
+thinc
+cupy-cuda111
