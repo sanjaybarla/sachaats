@@ -86,7 +86,7 @@ def home():
     """, unsafe_allow_html=True)
     col3, col4 = st.columns(2)
     with col3:
-        option_job = st.radio("Select Job Description:", ('Upload File', 'Select Previous'))
+        option_job = st.radio("Select Job Description:", ('Upload File'))
     
     with col4:
         option = st.radio("Upload resumes as:", ('Individual Files', 'Zip File'))
