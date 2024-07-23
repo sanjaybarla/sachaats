@@ -5,7 +5,6 @@ import numpy as np
 import spacy
 import docx2txt
 from PyPDF2 import PdfReader
-from spacy.cli import download
 
 nlp = spacy.load("en_core_web_sm")
 
